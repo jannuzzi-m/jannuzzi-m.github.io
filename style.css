@@ -116,3 +116,30 @@ body,
     transform: translateY(-10px);
   }
 }
+
+@media screen and (max-height: 600px){
+
+
+    @keyframes movediv {
+        0%{
+          transform: translateY(0);
+        }
+      
+        5%,
+        10% {
+          transform: translateY(-550px);
+        }
+      
+        25%, 100% {
+          transform: translateY(0);
+        }
+      
+      }
+}
+
+@media screen and (max-width: 600px){
+    .movement {
+        width: 100px;
+        height: 100px;
+    }
+}
